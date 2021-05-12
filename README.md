@@ -1,17 +1,17 @@
-# Used technology :
+# Teknologi yang dipakai :
 
-I am using php laravel, PHP, MySQL, XAMPP, Composer
+Saya menggunakan php laravel, PHP, MySQL, XAMPP, Composer
 
-# Instalation and running server locally :
-1. Use command prompt and direct to root folder and type :</br>
+# Instalasi dan menjalankan aplikasi di lokal :
+1. Gunakan command prompt dan arahkan ke folder root. Lalu ketik :</br>
    $ composer install</br>
-   Note : install composer first if this command not working</br>
-2. Rename file .env.example to .env in root folder.</br>
+   Note : Jika command ini tidak berhasil, install composer terlebih dahulu</br>
+2. Ganti nama file .env.example ke .env di folder root.</br>
    Open the file .env and adjust DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD to your MYSQL setting.</br>
-3. Use command prompt and direct to root folder and type :  
+3. Gunakan command prompt dan arahkan ke folder root. Lalu ketik :</br>
    $ php artisan key:generate</br>
    $ php artisan optimize</br>
    $ php artisan migrate</br>
    $ php artisan db:seed</br>
-4. Open folder on browser. Example : </br>
-   If folder name kalbetest then open localhost/kalbetest
+4. Buka folder di browser. Example : </br>
+   Jika folder bernama kalbetest maka buka localhost/kalbetest
